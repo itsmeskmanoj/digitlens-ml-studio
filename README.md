@@ -24,8 +24,8 @@ The dataset satisfies the assignment requirements of at least 500 instances and 
 
 ## C. Links
 
-- **GitHub repository:** Replace this text with the final repository URL
-- **Live Streamlit application:** Replace this text with the deployed application URL
+- **GitHub repository:** https://github.com/itsmeskmanoj/digitlens-ml-studio
+- **Live Streamlit application:** Not deployed yet
 
 ## D. Models and evaluation metrics
 
@@ -85,9 +85,10 @@ ml_assignment_2_digits/
 |   |-- gaussian_naive_bayes.joblib
 |   `-- support_vector_machine.joblib
 |-- RUN_AND_DEPLOY.md
-`-- screenshots/
-    `-- ADD_BITS_LAB_SCREENSHOT_HERE.txt
+`-- .gitignore
 ```
+
+The BITS Virtual Lab execution screenshot is still required for the final submission.
 
 ## G. Local execution
 
@@ -121,5 +122,3 @@ Open the local URL shown by Streamlit and upload `test_data.csv`.
 ## I. Reproducibility
 
 All models use random seed 359 where applicable. The training script regenerates the test CSV, model artifacts, metadata and metrics. The Streamlit app reads these saved files directly.
-
-# digitlens-ml-studio
